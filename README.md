@@ -59,7 +59,7 @@ and that's it for the startup, everything you need to know can be learned using 
 # user errors
 If the application fails to detect the existance of `d_not` file, it will attempt to create it, in some cases it will fail so that's why you should do it manually
 If the application fails to read the user input or the necessary arguments aren't provided, it will `seg fault`
-If the command isn't recognized, it will just not output anything
+If the command isn't recognized, it will output `no command recognized!`
 
 # advanced compilation
 
